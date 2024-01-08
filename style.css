@@ -133,3 +133,19 @@ button{
     font-size: larger;
     font-weight: bolder;
 }
+
+.call-to-action{
+    background-color: beige;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.call-to-action-content{
+    background-color: antiquewhite;
+}
+
+.button{
+    background-color: aquamarine;
+}
