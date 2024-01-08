@@ -108,3 +108,28 @@ button{
     background-color: aqua;
     flex-direction: column;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    padding:20px;
+}
+
+.quote{
+    font-size:36px;
+    font-style:light italic ;
+    color:#1F2937;
+    
+}
+
+.author{
+    /*background-color: aqua;*/
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    font-size: larger;
+    font-weight: bolder;
+}
