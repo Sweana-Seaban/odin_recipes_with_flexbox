@@ -44,7 +44,7 @@ align-items: start;
     display:flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     /*background-color: azure;*/
 }
 
@@ -68,8 +68,12 @@ align-items: start;
     color: #E5E7EB;
 }
 
-button{
+.sign-up-button{
     color: #3882F6;
+    padding:10px;
+    font-size: 16px;
+    border-radius: 8px;
+
 }
 
 .header-content img{
@@ -153,7 +157,7 @@ button{
 }
 
 .call-to-action{
-    /*background-color: beige;*/
+    /*background-color: rgb(169, 226, 238);*/
     display:flex;
     justify-content:space-around;
     align-items: center;
@@ -162,11 +166,16 @@ button{
 }
 
 .call-to-action-content{
-    /*background-color: antiquewhite;*/
+    
+    font-size: 28px;
 }
 
-.button{
+.subscribe-button{
     /*background-color: aquamarine;*/
+    padding:10px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #3882F6;
 }
 
 .footer{
