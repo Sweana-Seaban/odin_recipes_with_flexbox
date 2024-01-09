@@ -49,11 +49,12 @@ align-items: start;
 }
 
 .image{
-    background-color: aqua;
+    background-color: rgb(255, 0, 68);
     display: flex;
     margin:auto;
     justify-content: center;
     align-items: center;
+
 }
 
 .main-text{
@@ -71,9 +72,14 @@ button{
     color: #3882F6;
 }
 
-.img{
-    max-width:100%;
-
+.header-content img{
+    /*max-width:100%;*/
+    /*background-color: #f6386b;*/
+    /*width:200px;
+    height:200px;*/
+    /*width:100%;
+    height:100%;*/
+    object-fit: contain;
 }
 
 
@@ -82,13 +88,13 @@ button{
     padding:20px;
     flex-direction: column;
     /*align-items: center;
-    justify-content: center;*/
-    background-color: antiquewhite;
+    justify-content: center;
+    background-color: antiquewhite;*/
 }
 
 .information-header-text{
     display: flex;
-    background-color: #E5E7EB;
+    /*background-color: #E5E7EB;*/
     justify-content: center;
     align-items: center;
     font-size:36px;
@@ -105,8 +111,20 @@ button{
 
 
 .gallery-image{
-    background-color: aqua;
+    /*background-color: aqua;*/
     flex-direction: column;
+    
+}
+
+.gallery-image img{
+    width:200px;
+    height:200px;
+    /*object-fit: cover;*/
+}
+
+.gallery-image p{
+    display:flex;
+    justify-content: center;
 }
 
 .quote-section{
@@ -135,19 +153,20 @@ button{
 }
 
 .call-to-action{
-    background-color: beige;
+    /*background-color: beige;*/
     display:flex;
     justify-content:space-around;
     align-items: center;
+    padding:80px;
 
 }
 
 .call-to-action-content{
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
 }
 
 .button{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 
 .footer{
@@ -155,4 +174,5 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
